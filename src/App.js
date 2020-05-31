@@ -1,27 +1,40 @@
-import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import Discover from "./pages/Discover";
-import About from "./pages/About";
-import Search from "./pages/Search";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import React, { Component } from "react";
+import FriendCard from "./components/FriendCard";
 import Wrapper from "./components/Wrapper";
+import Title from "./components/Title";
+import friends from "./friends.json";
+// import "./App.css";
 
-function App() {
+class App extends Component {
+  state = {
+    friends
+  };
+
+removeFriend = id => {
+  const friends = this.state.friends.filter(friend => friend.id !== id);
+  this.setState({ friends });
+}
+render() {
   return (
-    <Router>
-      <div>
-        <Navbar />
-        <Wrapper>
-          <Route exact path="/" component={About} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/discover" component={Discover} />
-          <Route exact path="/search" component={Search} />
-        </Wrapper>
-        <Footer />
-      </div>
-    </Router>
-  );
+    <Wrapper>
+      <Title>Employee Directory</Title>
+      {this.state.friends.map(friend => (
+        <FriendCard
+        removeFriend={this.removeFriend}
+        id={friend.id}
+        key={friend.id}
+        firstname={friend.firstname}
+        lastname={friend.lastname}
+        middleinitial={friend.middleinitial}
+        image={friend.image}
+        department={friend.department}
+        location={friend.location}
+        badge={friend.badge}
+        />
+      ))}
+    </Wrapper>
+  )
+  }
 }
 
 export default App;
