@@ -1,19 +1,37 @@
-import React from "react";
-import Main from "./components/Main";
+import React, { Component } from "react";
+import FriendCard from "./components/FriendCard";
 import Wrapper from "./components/Wrapper";
-import Header from "./components/Header";
+import Title from "./components/Title";
+import friends from "./friends.json";
+// import "./App.css";
 
-import "./App.css";
+class App extends Component {
+  state = {
+    friends
+  };
 
-function App() {
+removeFriend = id => {
+  const friends = this.state.friends.filter(friend => friend.id !== id);
+  this.setState({ friends });
+}
+render() {
   return (
-    <div className="App">
-      <Wrapper>
-        <Header />
-        <Main />
-      </Wrapper>
-    </div>
-  );
+    <Wrapper>
+      <Title>Friends List</Title>
+      {this.state.friends.map(friend => (
+        <FriendCard
+        removeFriend={this.removeFriend}
+        id={friend.id}
+        key={friend.id}
+        name={friend.name}
+        image={friend.image}
+        occupation={friend.occupation}
+        location={friend.location}
+        />
+      ))}
+    </Wrapper>
+  )
+  }
 }
 
 export default App;
