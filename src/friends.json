@@ -1,86 +1,86 @@
 [
   {
     "id": 1,
-    "name": "SpongeBob",
-    "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-    "occupation": "Fry Cook",
-    "location": "A Pineapple Under the Sea"
+    "name": "Gladiator",
+    "image": "https://www.rowthree.com/wp-content/uploads/2013/06/glad01.jpg",
+    "occupation": "Action",
+    "location": "Adventure"
   },
   {
     "id": 2,
-    "name": "Mr. Krabs",
-    "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131",
-    "occupation": "Restaurant Owner",
-    "location": "A Giant Anchor"
+    "name": "Roque One",
+    "image": "https://starwarsblog.starwars.com/wp-content/uploads/2017/02/rogue-one-home-ent-tall-B-1536x864.jpg",
+    "occupation": "Action",
+    "location": "Adventure"
   },
   {
     "id": 3,
-    "name": "Squidward",
-    "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
-    "occupation": "Cashier",
-    "location": "An Easter Island Head"
+    "name": "Burn After Reading",
+    "image": "https://media.gq.com/photos/59679932b193e561b37b9683/master/pass/1484709249_focusfeatures_burnafterreading_joelcoen_ethancoen_georgeclooney_francesmcdormand_bradpitt_johnmalkovich_tildaswinton_jksimmons_bg7.jpg",
+    "occupation": "Comedy",
+    "location": "Dark Comedy"
   },
   {
     "id": 4,
-    "name": "Dexter",
-    "image": "https://s-media-cache-ak0.pinimg.com/originals/fe/32/49/fe32495d45283cd6860ae122f0aeaad9.png",
-    "occupation": "Boy Genius",
-    "location": "A Secret Laboratory"
+    "name": "Girl on the Train",
+    "image": "https://www.toledoblade.com/image/2016/10/06/1140x_a10-7_cTC/Emily-Blunt-10-7.JPG",
+    "occupation": "Thriller",
+    "location": "Novel"
   },
   {
     "id": 5,
-    "name": "Courage",
-    "image": "https://vignette4.wikia.nocookie.net/vsbattles/images/3/39/Courage-0.png/revision/latest?cb=20160719055423",
-    "occupation": "A Cowardly Dog",
-    "location": "Nowhere, Kansas"
+    "name": "Inglourious Basterds",
+    "image": "https://sm.mashable.com/t/mashable_in/photo/default/why-is-inglourious-basterds-the-perfect-quentin-tarantino-fi_hcbv.960.jpg",
+    "occupation": "Action",
+    "location": "War"
   },
   {
     "id": 6,
-    "name": "Doug Funnie",
-    "image": "https://vignette1.wikia.nocookie.net/doug/images/3/3b/Doug001.gif/revision/latest?cb=20110807170511",
-    "occupation": "Student",
-    "location": "Bluffington"
+    "name": "Cindrella",
+    "image": "https://api.time.com/wp-content/uploads/2015/03/cinderella.jpg",
+    "occupation": "Romance",
+    "location": "Fantasy"
   },
   {
     "id": 7,
-    "name": "Bugs Bunny",
-    "image": "https://vignette2.wikia.nocookie.net/deathbattlefanon/images/2/2b/Bugs_Bunny.png/revision/latest?cb=20151206010607",
-    "occupation": "Looney Toon",
-    "location": "A Rabbit Burrow"
+    "name": "Wanted",
+    "image": "https://wegotthiscovered.com/wp-content/themes/wgtc_v2/resizer/resizer.php?file=uploads/wanted-sequel-james-mcavoy.jpg&height=650&width=1264.5914396887&action=resize",
+    "occupation": "Action",
+    "location": "Adventure"
   },
   {
     "id": 8,
-    "name": "Johnny Bravo",
-    "image": "http://vignette3.wikia.nocookie.net/p__/images/9/9a/Johnny_Bravo.png/revision/latest?cb=20131031233339&path-prefix=protagonist",
-    "occupation": "Ladies Man",
-    "location": "Aron City"
+    "name": "Frozen 2",
+    "image": "https://d2e111jq13me73.cloudfront.net/sites/default/files/styles/review_gallery_carousel_slide_thumbnail_landscape/public/video-thumbnails/frozen-2-site1.jpg?itok=-ZhQADrU",
+    "occupation": "Animation",
+    "location": "Adventure"
   },
   {
     "id": 9,
-    "name": "Tommy Pickles",
-    "image": "https://vignette4.wikia.nocookie.net/uncyclopedia/images/e/e4/Tommy_Pickles.png/revision/latest?cb=20110530102641",
-    "occupation": "Adventurer",
-    "location": "California"
+    "name": "O Brother, Where Art Thou",
+    "image": "https://www.sitemason.com/files/pLlJ5K/OBrotherWhereArtThouweb.jpg/main.jpg",
+    "occupation": "Comedy",
+    "location": "Adventure"
   },
   {
     "id": 10,
-    "name": "Rocko",
-    "image": "http://vignette3.wikia.nocookie.net/rockosmodernlife/images/9/9e/Rockos-modern-life-4e582a8f06a41.png/revision/latest?cb=20130522173416",
-    "occupation": "Cashier",
-    "location": "O-Town, California"
+    "name": "Fun With Dick and Jane",
+    "image": "https://a.ltrbxd.com/resized/sm/upload/xx/ek/z8/wp/fun-with-dick-and-jane-1200-1200-675-675-crop-000000.jpg?k=9d2bee0e32",
+    "occupation": "Comedy",
+    "location": "Crime Fiction"
   },
   {
     "id": 11,
-    "name": "Captain Planet",
-    "image": "http://vignette2.wikia.nocookie.net/dragon-rap-battles/images/b/b6/Captain_Planet.png/revision/latest?cb=20160911200836",
-    "occupation": "Superhero",
-    "location": "Earth"
+    "name": "Get Smart",
+    "image": "https://static3.srcdn.com/wordpress/wp-content/uploads/2019/05/get-smart-poster.jpg",
+    "occupation": "Comedy",
+    "location": "Action"
   },
   {
     "id": 12,
-    "name": "Ickis",
-    "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
-    "occupation": "Ahhhh! A Real Monster!",
-    "location": "Under a City Dump"
+    "name": "300",
+    "image": "https://resizing.flixster.com/ba1J-3KdRpwkWeejMnFaXa41gM8=/740x380/v1.bjs3Njg0MTA7ajsxODU5MzsxMjAwOzIwNDg7MTA4MA",
+    "occupation": "Action",
+    "location": "War"
   }
 ]
