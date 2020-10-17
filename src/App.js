@@ -17,7 +17,7 @@ removeFriend = id => {
 render() {
   return (
     <Wrapper>
-      <Title>Friends List</Title>
+      <Title>Movie List</Title>
       {this.state.friends.map(friend => (
         <FriendCard
         removeFriend={this.removeFriend}

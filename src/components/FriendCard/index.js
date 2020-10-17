@@ -15,10 +15,10 @@ function FriendCard(props) {
             <strong>Name:</strong> {props.name}
           </li>
           <li>
-            <strong>Occupation:</strong> {props.occupation}
+            <strong>Genre:</strong> {props.occupation}
           </li>
           <li>
-            <strong>Address:</strong> {props.location}
+            <strong>Sub-Genre:</strong> {props.location}
           </li>
         </ul>
       </div>
