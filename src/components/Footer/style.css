@@ -1,6 +1,6 @@
 .footer {
   min-height: 100px;
-  background: darkred;
+  background: rgba(83, 44, 44, 0.863);
   position: relative;
 }
 
@@ -10,5 +10,5 @@
   left: 0;
   right: 0;
   padding: 3px;
-  background: red;
+  background: rgba(83, 44, 44, 0.863);
 }
