@@ -1,9 +1,9 @@
 import React from "react";
-import "./style.css";
+import "./boomcard.css";
 
 function Card(props) {
   return (
-    <div className="card text-center">
+    <div className="card text-center boomcard">
       <div className="card-header">
         <h2>{props.heading}</h2>
       </div>
