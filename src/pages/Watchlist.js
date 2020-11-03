@@ -30,8 +30,15 @@ render() {
         location={friend.location}
         />
       ))}
+      {/* <input type="text" placeholder="Enter text here" /> */}
     </WrapperOne>
+    
   )
+  // return(
+  //   <div>
+  //     <input type="text" placeholder="Enter text here" />
+  //   </div>
+  // )
   }
 }
 

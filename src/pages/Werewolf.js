@@ -6,6 +6,7 @@ import MovieDetail from "../components/MovieDetail";
 import Row from "../components/Row";
 import Col from "../components/Col";
 import Card from "../components/Card";
+// import Information from "../friends.json";
 
 class Search extends Component {
     state = {
